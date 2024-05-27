@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Thet Maung</div>
       <div>
         <ul class="nav-links">
           <li>
@@ -28,7 +28,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Thet Maung</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -51,6 +51,160 @@
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Thet Maung</h1>
+        <p class="section__text__p2">Flutter Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/thet-maung-91522a248/'">
+          <img src="./assets/github.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://github.com/ThetMaung2002'">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">
+        Get to know more
+      </p>
+      <h1 class="title">
+        About Me
+      </h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="detail-container">
+              <img src="./assets/experience.png" alt="experience icon" class="icon">
+              <h3>Experience</h3>
+              <p>1+ year <br/> Flutter Developer</p>
+            </div>
+            <div class="detail-container">
+              <img src="./assets/education.png" alt="education icon" class="icon">
+              <h3>Education</h3>
+              <p>Information Technologies Certificate <br/> Metro Diploma</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>Lorem ipsum dolor sit amet consectetur 
+              adipisicing elit. Minus iure repellat, 
+              nobis provident facilis, voluptates enim 
+              voluptatem sed esse ipsa atque harum dolore 
+              temporibus accusantium cum iste ut cumque adipisci.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img 
+        src="./assets/arrow.png" 
+        alt="Next Section" 
+        class="icon arrow" 
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="detail-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>HTML5</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>CSS3</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="detail-container">
+            <h2 class="experience-sub-title">Mobile Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>Dart</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>Flutter</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>React Native / Expo</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="detail-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>Go</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark-icon" class="icon">
+                <div>
+                  <h3>Express Js</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img 
+        src="./assets/arrow.png" 
+        alt="Next Section" 
+        class="icon arrow" 
+        onclick="location.href='./#experience'"
+      >
+    </section>
     <script defer type="text/javascript" src="/main.js"></script>
   </body>
 </html>
