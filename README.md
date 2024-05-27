@@ -1,1 +1,3 @@
-A simple HTML/JS/CSS starter template
+# Thet Maung
+
+Thank you for checking this out 👋.
