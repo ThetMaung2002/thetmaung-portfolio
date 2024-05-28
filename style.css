@@ -358,11 +358,22 @@ article .icon {
 /* Projects Section */
 
 .project-img {
-  width: 64rem;
-  height: 64rem;
+  width: 90%;
+  height: 90%;
   border-radius: 1rem;
 }
 
 .color-container {
   margin-bottom: 2rem;
+  border-color: rgb(163, 163, 163);
+  background-color: rgb(250, 250, 250);
+}
+
+#projects {
+  position: relative;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
 }
