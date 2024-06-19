@@ -540,6 +540,7 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+        border-radius: 2rem;
       }
 
       .section__text__p2 {
@@ -573,9 +574,9 @@
           <li>
             <a href="#experience">Experience</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#projects">Projects</a>
-          </li>
+          </li> -->
           <li>
             <a href="#contact">Contact</a>
           </li>
@@ -597,9 +598,9 @@
           <li>
             <a href="#experience" onclick="toggleMenu()">Experience</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#projects" onclick="toggleMenu()">Projects</a>
-          </li>
+          </li> -->
           <li>
             <a href="#contact" onclick="toggleMenu()">Contact</a>
           </li>
@@ -608,12 +609,16 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/cat-meme-pp.webp" alt="John Doe profile picture" />
+        <img
+          src="./assets/my-photo.jpg"
+          alt="John Doe profile picture"
+          class="about-pic"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Thet Maung</h1>
-        <p class="section__text__p2">Flutter Developer</p>
+        <p class="section__text__p2">Software Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -647,7 +652,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/cat-meme-pp.webp"
+            src="./assets/my-photo.jpg"
             alt="Profile Picture"
             class="about-pic"
           />
@@ -681,10 +686,11 @@
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              iure repellat, nobis provident facilis, voluptates enim voluptatem
-              sed esse ipsa atque harum dolore temporibus accusantium cum iste
-              ut cumque adipisci.
+              My name is Thet Maung, a recent IT graduate from Metro IT and
+              Japanese Language Center. In addition to my formal education, I'm
+              a self-taught developer with skills in popular frameworks like
+              React, React Native, Flutter (including Dart), Angular, and
+              Golang.
             </p>
           </div>
         </div>
@@ -821,10 +827,10 @@
         src="./assets/arrow.png"
         alt="Next Section"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
       />
     </section>
-    <section id="projects">
+    <!-- <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -909,7 +915,7 @@
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
-    </section>
+    </section> -->
     <section id="contact">
       <p class="section__text__p1">Get in touch</p>
       <h1 class="title">Contact Me</h1>
@@ -920,7 +926,9 @@
             alt="Email Icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mainto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p>
+            <a href="mainto:examplemail@gmail.com">thetmaung013@gmail.com</a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
